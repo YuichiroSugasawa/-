@@ -1,0 +1,9 @@
+package servers;
+
+public class PurchasePlanDBAccess {
+
+	public PurchasePlanDBAccess() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

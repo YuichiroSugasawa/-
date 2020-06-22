@@ -89,19 +89,20 @@ public class Dao {
 	 * @return 実行結果
 	 * @throws SQLException
 	 */
-	public int insertFavorite(String accountId, String shopId) throws SQLException{
+	public int insertbook(String bookTitleInput , String bookWriterInput , String bookCompanyInput) throws SQLException{
 		// SQL
-		String sql = "INSERT INTO favorite(account_id, shop_id) VALUES (?, ?) ";
+		String sql = "INSERT INTO books(title, writer , company) VALUES (?, ? , ?) ";
 		PreparedStatement ps = null;
 		int n = 0;
 		
 		try {
 			// プレースホルダを設定
 			ps = con.prepareStatement(sql);
-			ps.setString(1, accountId);
-			ps.setString(2, shopId);
+			ps.setString(1, bookTitleInput);
+			ps.setString(2, bookWriterInput);
+			ps.setString(3, bookCompanyInput);
 			
-			// SQL実行
+			// SQL実行、追加したデータの数を足す
 			n = ps.executeUpdate();
 		}finally {
 			ps.close();
@@ -172,5 +173,28 @@ public class Dao {
 		}
 		
 		return result;
+	}
+
+	public int purchaseplan(String bookTitlePlan, String bookWriterPlan, String bookCompanyPlan) throws SQLException {
+		// TODO Auto-generated method stub
+		//SQLでの処理を記入
+		String sql = "INSERT INTO purchaseplan (title, writer , company) VALUES (?, ? , ?) ";
+		PreparedStatement ps = null;
+		int n = 0;
+		
+		try {
+			// プレースホルダを設定
+			ps = con.prepareStatement(sql);
+			ps.setString(1, bookTitlePlan);
+			ps.setString(2, bookWriterPlan);
+			ps.setString(3, bookCompanyPlan);
+			
+			// SQL実行、追加したデータの数を足す
+			n = ps.executeUpdate();
+		}finally {
+			ps.close();
+		}
+		
+		return n;
 	}
 }

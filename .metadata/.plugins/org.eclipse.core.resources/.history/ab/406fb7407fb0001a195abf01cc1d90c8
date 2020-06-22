@@ -1,0 +1,9 @@
+package servers;
+
+public class InputBookDBAccess {
+
+	public InputBookDBAccess() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

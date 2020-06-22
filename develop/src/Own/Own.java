@@ -41,7 +41,7 @@ public class Own extends HttpServlet {
 		String bookWriterSerch= request.getParameter("bookWriterSearch");
 		String bookCompanySerch= request.getParameter("bookCompanySearch");
 		
-		//book型のownBookList変数を作成
+		//book型のownBookList変数を作成 取り出したいデータ型がString型のみ、int型のみとは限らないためbookというデータ型を作成
 		ArrayList<book> ownBooksList = new ArrayList<book>();
 		try {
 			// リストを取得	

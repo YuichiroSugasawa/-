@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="servers.OwnDBAccess"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="dto.book"/>
+    <fullyQualifiedTypeName name="servers.InputBookDBAccess"/>
+    <fullyQualifiedTypeName name="dao.Dao"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="servers.PurchasePlanDBAccess"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+127.0.0.1 - - [17/Jun/2020:11:39:59 +0900] "GET / HTTP/1.1" 404 843
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:00 +0900] "GET /develop/inputBooks.jsp HTTP/1.1" 200 680
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:00 +0900] "GET /favicon.ico HTTP/1.1" 404 854
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:04 +0900] "GET /develop/main.jsp HTTP/1.1" 200 438
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:04 +0900] "GET /develop/css/base_style.css HTTP/1.1" 404 877
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:05 +0900] "GET /develop/inputBooks.jsp HTTP/1.1" 200 680
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:06 +0900] "GET /develop/main.jsp HTTP/1.1" 200 438
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:06 +0900] "GET /develop/css/base_style.css HTTP/1.1" 404 877
+0:0:0:0:0:0:0:1 - - [17/Jun/2020:11:40:07 +0900] "GET /develop/ownBooks.jsp HTTP/1.1" 200 645

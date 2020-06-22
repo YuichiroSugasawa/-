@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body{
+
+	background-image:url(https://get.pxhere.com/photo/clock-book-flowers-vintage-antique-writing-blank-paper-roses-scrapbook-text-space-festive-greeting-card-decorative-noble-shabby-chic-floral-birthday-congratulations-nostalgia-flower-still-life-photography-still-life-picture-frame-computer-wallpaper-petal-floral-design-stock-photography-1443549.jpg);
+	backgroungd-size:contain;
+}

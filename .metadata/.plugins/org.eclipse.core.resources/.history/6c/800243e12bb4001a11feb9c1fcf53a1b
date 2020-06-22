@@ -1,0 +1,9 @@
+package servers;
+
+public class purchasePlan {
+
+	public purchasePlan() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
