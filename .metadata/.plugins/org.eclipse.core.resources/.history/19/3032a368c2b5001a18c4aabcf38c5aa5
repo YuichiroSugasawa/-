@@ -1,0 +1,9 @@
+package delete;
+public class delete {
+
+	public delete() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+}

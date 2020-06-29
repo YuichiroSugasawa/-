@@ -37,7 +37,7 @@ public class PurchasePlan extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		ServletContext context = getServletContext();
-		RequestDispatcher dis = context.getRequestDispatcher("/InputComplete.jsp");
+		RequestDispatcher dis = context.getRequestDispatcher("/inputComplete.jsp");
 		dis.forward(request, response);
 	}
 

@@ -71,6 +71,8 @@ public class Dao {
 				item.setWriter(rs.getString("writer"));
 				//本の出版社を取得、itemへ
 				item.setCompany(rs.getString("company"));
+				
+				item.setId(rs.getInt("book_id"));
 				//itemメソッドに格納
 				list.add(item);
 			}
@@ -118,17 +120,16 @@ public class Dao {
 	 * @return 実行結果
 	 * @throws SQLException
 	 */
-	public int deleteFavorite(String accountId, String shopId) throws SQLException{
+	public int deletebook(int id) throws SQLException{
 		// SQL
-		String sql = "delete from favorite where account_id = ? and shop_id = ?";
+		String sql = "delete from books where book_id = ?";
 		PreparedStatement ps = null;
 		int n = 0;
 		
 		try {
 			// プレースホルダを設定
 			ps = con.prepareStatement(sql);
-			ps.setString(1, accountId);
-			ps.setString(2, shopId);
+			ps.setInt(1, id);
 
 			// SQL実行
 			n = ps.executeUpdate();

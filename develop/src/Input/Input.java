@@ -41,7 +41,7 @@ public class Input extends HttpServlet {
 		
 			
 		ServletContext context = getServletContext();
-		RequestDispatcher dis = context.getRequestDispatcher("/InputComplete.jsp");
+		RequestDispatcher dis = context.getRequestDispatcher("/inputComplete.jsp");
 		dis.forward(request, response);
 		
 	}

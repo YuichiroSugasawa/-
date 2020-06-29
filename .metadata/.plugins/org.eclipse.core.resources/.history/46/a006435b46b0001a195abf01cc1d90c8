@@ -1,9 +1,0 @@
-package servers;
-
-public class InputBook {
-
-	public InputBook() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

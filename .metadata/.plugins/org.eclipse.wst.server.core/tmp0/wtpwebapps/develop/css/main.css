@@ -7,5 +7,15 @@ body{
 }
 h1 {
 	
-	font-color:#FFFFFF;
+	color:white;
 }
+
+a{
+	color:yellow;
+	padding:30px;
+}
+
+a:hover{
+	color:lime
+}
+

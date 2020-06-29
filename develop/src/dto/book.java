@@ -19,6 +19,9 @@ public class book implements Serializable{
 	public String writer;
 	// 出版社
 	public String company;
+	//本のID
+	public int id;
+	
 	
 	// ゲッター/セッター
 	public String getTitle() {
@@ -40,10 +43,19 @@ public class book implements Serializable{
 	public String getCompany() {
 		return company;
 	}
+	
+	
 
 	public void setCompany(String company) {
 		this.company =company ;
 	}
 	
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id=id;
+	}
 	
 }

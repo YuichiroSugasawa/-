@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+body{
+	background-image:url(https://s1.1zoom.me/big0/519/431724-Kysb.jpg);
+	backgroungd-size:contain;
+}

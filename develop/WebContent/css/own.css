@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+	background-image:url(https://s1.1zoom.me/big0/519/431724-Kysb.jpg);
+	backgroungd-size:contain;
+}
+h1 {
+	
+	color:white;
+}
+
+a{
+	color:yellow;
+}
+
+a:hover{
+	color:lime
+}
+
+header{
+	color:white;
+}
+
+p{
+	color:cyan;	
+}
+
+input{
+	height: 15px; 
+     line-height: 15px;
+}

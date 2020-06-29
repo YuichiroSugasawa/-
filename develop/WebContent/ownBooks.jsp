@@ -4,14 +4,16 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="css/base_style.css">
+<link rel="stylesheet" href="css/own.css">
 <title>蔵書検索</title>
 </head>
 <body>
 	<header>蔵書検索
 		<form>
-			<br><a href="main.jsp">メインページへ</a>
-			<br><a href="purchasePlans.jsp">購入予定図書</a>
-			<br><a href="inputBooks.jsp">蔵書登録</a>
+			<a href="main.jsp">メインページへ</a>
+			<a href="purchasePlans.jsp">購入予定図書</a>
+			<a href="inputBooks.jsp">蔵書登録</a>
 		</form>
 	</header>
 	<form action="Own"method="get" >

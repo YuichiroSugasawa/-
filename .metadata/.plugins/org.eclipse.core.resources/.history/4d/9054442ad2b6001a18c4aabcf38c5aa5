@@ -1,0 +1,9 @@
+package servers;
+
+public class DeleteDBAccess {
+
+	public DeleteDBAccess() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
